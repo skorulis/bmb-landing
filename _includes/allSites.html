@@ -1,0 +1,21 @@
+<section id="sites">
+
+    <div class="container">
+		<div class="row">
+		
+		{% for beerSite in site.data.meta %}
+			{% assign imgURL = '/img/sites/' | append: beerSite[0] | append: '-icon.png' %}
+			{% assign usedIcon = '/img/sites/generic-site-200.png' %}
+			{% for static_file in site.static_files %}
+				{% if static_file.path == imgURL %}
+					{% assign usedIcon = imgURL %}
+				{% endif %}
+			{% endfor %}
+			<div class="col-xs-4 col-sm-2 all-sites-item">
+				<img src="{{usedIcon}}" class="img-responsive" alt="{{ post.alt }}">
+				<p class="site-name">{{beerSite[1].name}}</p>
+			</div>
+		{% endfor %}
+		</div>
+	</div>
+</section>
