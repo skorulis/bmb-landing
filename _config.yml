@@ -3,6 +3,7 @@ title: Beermoney Balances
 email: beermoneybalances@skorulis.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 meta_author: Alex Skorulis
+google_analytics: UA-23447195-4
 
 # Google webmaster tools
 google_verify:
