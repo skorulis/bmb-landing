@@ -219,6 +219,24 @@ section.success {
     background: #fff;
 }
 
+.btn-outline-rev {
+    margin-top: 15px;
+    border: solid 2px #{{ site.color.primary }};
+    font-size: 20px;
+    color: #{{ site.color.primary }};
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+
+.btn-outline-rev:hover,
+.btn-outline-rev:focus,
+.btn-outline-rev:active,
+.btn-outline-rev.active {
+    border: solid 2px #fff;
+    color: #fff;
+    background: #{{ site.color.primary }};
+}
+
 .floating-label-form-group {
     position: relative;
     margin-bottom: 0;
@@ -371,6 +389,10 @@ footer .footer-below {
 
 .portfolio-modal .close-modal:hover {
     opacity: .3;
+}
+
+.sites-more {
+    color: #fff;
 }
 
 .portfolio-modal .close-modal .lr {
