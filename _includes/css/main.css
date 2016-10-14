@@ -302,7 +302,7 @@ footer h3 {
 }
 
 footer .footer-above {
-    padding-top: 50px;
+    padding-top: 10px;
     background-color: #{{ site.color.secondary }};
 }
 
@@ -441,4 +441,8 @@ footer .footer-below {
 
 .all-sites-item img {
     flex-grow: 1;
+}
+
+div.privacy {
+    padding-top: 80px;
 }
