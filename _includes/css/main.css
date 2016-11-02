@@ -446,3 +446,7 @@ footer .footer-below {
 div.privacy {
     padding-top: 80px;
 }
+
+ul {
+    font-size: 120%;
+}
