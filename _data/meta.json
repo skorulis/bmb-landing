@@ -72,7 +72,7 @@
 		"fractions":false
 	},
 	"prolific": {
-		"conversion": 0.79,
+		"conversion": 0.80,
 		"url":"https://www.prolific.ac/participant/account",
 		"name":"Prolific",
 		"fractions":true
@@ -84,9 +84,15 @@
 		"fractions":false
 	},
 	"freebitco-in": {
-		"conversion": 0.0016,
+		"conversion": 0.0014, 
 		"url":"https://freebitco.in",
 		"name":"Free bitcoin",
+		"fractions":true
+	},
+	"moonbitcoin": {
+		"conversion": 0.0014,
+		"url":"http://moonbit.co.in/",
+		"name":"Moon bitcoin",
 		"fractions":true
 	},
 	"usabilityhub": {
@@ -119,11 +125,37 @@
 		"name":"GrindaBuck",
 		"fractions":true
 	},
+	"rewardscentral": {
+		"conversion": 144,
+		"url":"http://www.rewardscentral.com.au/",
+		"name":"Rewards Central",
+		"fractions":false
+	},
+	"rewardingways": {
+		"conversion": 1,
+		"url":"http://rewardingways.com/members/index.php",
+		"name":"Rewarding Ways",
+		"fractions":true
+	},
+	"spare5": {
+		"conversion": 1,
+		"url":"https://app.spare5.com/fives/tasks",
+		"name":"Spare 5",
+		"fractions":true
+	},
+	"usertesting": {
+		"conversion": 1,
+		"url":"https://www.usertesting.com/my_dashboard",
+		"name":"User Testing",
+		"fractions":true
+	},
 	"clixsense": {
 		"conversion": 1,
 		"url":"http://www.clixsense.com/",
 		"name":"Clixsense",
 		"fractions":true
-	}
+	},
+
+
 
 }
