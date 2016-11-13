@@ -12,8 +12,9 @@
 				{% endif %}
 			{% endfor %}
 			<div class="col-xs-4 col-sm-2 all-sites-item">
+				<a href="{{beerSite[1].url}}" onclick="trackOutboundLink('{{beerSite[1].name}}')">
 				<img src="{{usedIcon}}" class="img-responsive" alt="{{ post.alt }}">
-				<p class="site-name">{{beerSite[1].name}}</p>
+				<p class="site-name">{{beerSite[1].name}}</p></a>
 			</div>
 		{% endfor %}
 		</div>

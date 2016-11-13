@@ -39,3 +39,7 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+function trackOutboundLink(name) {
+    ga('send', 'event', 'outbound', 'site-click', "click-"+name);
+}
