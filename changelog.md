@@ -3,6 +3,13 @@ layout: basic
 title: Changelog
 ---
 
+0.2.5 - 15th November 2016
+----
+
+* Add Microworkers
+* Fix bug in nadamobile
+* Change perk conversion from 1500 to 1000
+
 0.2.4
 ----
 
