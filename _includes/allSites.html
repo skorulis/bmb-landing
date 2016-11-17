@@ -12,11 +12,17 @@
 				{% endif %}
 			{% endfor %}
 			<div class="col-xs-4 col-sm-2 all-sites-item">
-				<a href="{{beerSite[1].url}}" onclick="trackOutboundLink('{{beerSite[1].name}}')">
+				{% if beerSite[1].refurl %}
+					<a href="{{beerSite[1].refurl}}" rel="nofollow" onclick="trackOutboundLink('{{beerSite[1].name}}')">
+				{% else %}
+					<a href="{{beerSite[1].url}}" rel="nofollow" onclick="trackOutboundLink('{{beerSite[1].name}}')">
+				{% endif %}
 				<img src="{{usedIcon}}" class="img-responsive" alt="{{ post.alt }}">
 				<p class="site-name">{{beerSite[1].name}}</p></a>
 			</div>
 		{% endfor %}
 		</div>
+		<br/>
+		<p>Some of these links are using my referral code, support this site by signing up</p>
 	</div>
 </section>

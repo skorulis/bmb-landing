@@ -3,6 +3,11 @@ layout: basic
 title: Changelog
 ---
 
+0.2.6 - 18th November 2016
+----
+
+* Add Cashcrate
+
 0.2.5 - 15th November 2016
 ----
 

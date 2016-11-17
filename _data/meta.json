@@ -62,18 +62,21 @@
 	"swagbucks": {
 		"conversion": 100,
 		"url":"http://www.swagbucks.com/",
+		"refurl":"http://www.swagbucks.com/p/register?rb=21823318",
 		"name":"SwagBucks",
 		"fractions":false
 	},
 	"perktv": {
 		"conversion": 1000,
 		"url":"http://perk.tv/home",
+		"refurl":"http://perk.fm/4uunp",
 		"name":"PerkTV",
 		"fractions":false
 	},
 	"earnhoney": {
 		"conversion": 100,
 		"url":"http://www.earnhoney.com/",
+		"refurl":"http://www.earnhoney.com/en/home/?referrer=11E7924DB8",
 		"name":"EarnHoney",
 		"fractions":true
 	},
@@ -146,12 +149,14 @@
 	"freebitco-in": {
 		"conversion": 0.0014, 
 		"url":"https://freebitco.in",
+		"refurl":"http://freebitco.in/?r=3188299",
 		"name":"Free bitcoin",
 		"fractions":true
 	},
 	"moonbitcoin": {
 		"conversion": 0.0014,
 		"url":"http://moonbit.co.in/",
+		"refurl":"http://moonbit.co.in/?ref=4a56c21df1d3",
 		"name":"Moon bitcoin",
 		"fractions":true
 	},
@@ -188,6 +193,7 @@
 	"grindabuck": {
 		"conversion": 100,
 		"url":"http://grindabuck.com/acc",
+		"refurl":"http://grindabuck.com/index?ref=skorulis",
 		"name":"GrindaBuck",
 		"fractions":true
 	},
@@ -219,6 +225,13 @@
 		"conversion": 1,
 		"url":"https://microworkers.com/",
 		"name":"microWorkers",
+		"fractions":true
+	},
+	"cashcrate": {
+		"conversion": 1,
+		"url":"http://www.cashcrate.com/dashboard",
+		"refurl":"http://www.cashcrate.com/6995480",
+		"name":"Cash Crate",
 		"fractions":true
 	}
 
