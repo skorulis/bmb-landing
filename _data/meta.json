@@ -83,6 +83,7 @@
 	"gifthulk": {
 		"conversion": 1000,
 		"url":"http://www.gifthulk.com/",
+		"refurl":"http://www.gifthulk.com/invite/SK1388864",
 		"name":"GiftHulk",
 		"fractions":false
 	},
@@ -102,12 +103,14 @@
 		"conversion": 1,
 		"url":"https://my.pureprofile.com",
 		"name":"PureProfile",
+		"refurl":"http://referral.pureprofile.com/OTc3MjAwMTQx1",
 		"fractions":true
 	},
 	"instagc": {
 		"conversion": 100,
 		"url":"https://www.instagc.com/earn/",
 		"name":"InstaGC",
+		"ref":"https://www.instagc.com/skorulis",
 		"fractions":false
 	},
 	"yougovau": {
@@ -169,6 +172,7 @@
 	"earnably": {
 		"conversion": 100,
 		"url":"http://earnably.com/",
+		"refurl":"http://earnably.com/r/skorulis",
 		"name":"Earnably",
 		"fractions":true
 	},
