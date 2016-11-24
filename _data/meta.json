@@ -237,6 +237,13 @@
 		"refurl":"http://www.cashcrate.com/6995480",
 		"name":"Cash Crate",
 		"fractions":true
+	},
+	"lootpalace": {
+		"conversion": 800,
+		"url":"http://lootpalace.com/",
+		"refurl":"http://lootpalace.com/?ref=748476",
+		"name":"Loot Palace",
+		"fractions":false
 	}
 
 
