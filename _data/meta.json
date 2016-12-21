@@ -244,6 +244,13 @@
 		"refurl":"http://lootpalace.com/?ref=748476",
 		"name":"Loot Palace",
 		"fractions":false
+	},
+	"pricepal": {
+		"conversion": 1,
+		"url":"https://pricepal.com.au/account/home",
+		"refurl":"http://pricep.al/kWR",
+		"name":"PricePal",
+		"fractions":true
 	}
 
 
