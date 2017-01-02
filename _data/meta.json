@@ -251,6 +251,13 @@
 		"refurl":"http://pricep.al/kWR",
 		"name":"PricePal",
 		"fractions":true
+	},
+	"paidviewpoint": {
+		"conversion": 1,
+		"url":"https://paidviewpoint.com/dashboard",
+		"refurl":"http://paidviewpoint.com/?r=aat1u1",
+		"name":"Paid Viewpoint",
+		"fractions":true
 	}
 
 
